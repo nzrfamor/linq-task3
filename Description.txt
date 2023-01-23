@@ -1,0 +1,9 @@
+A sequence of information about goods goodList of type Good and a sequence of prices
+of goods in various stores storePriceList of type StorePrice are given. Each element of the
+goodList sequence includes the Product SKU, Category, Country of origin fields. Each
+element of the storePriceList sequence includes the Product SKU, Store Title, Price fields.
+For each country of origin get the number of stores offering goods manufactured in that
+country, as well as the minimum price for goods from this country for all stores
+(CountryStat values). If no product is found for a certain country that is presented in any
+store, then the number of stores and the minimum price are assumed to be 0. Sort the
+list by country of origin.
